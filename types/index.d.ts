@@ -223,6 +223,7 @@ declare module 'react-google-maps/lib/components/GoogleMap' {
         defaultClickableIcons?: boolean
         defaultHeading?: number
         defaultMapTypeId?: google.maps.MapTypeId | string
+        defaultExtraMapTypes?: object[]
         defaultOptions?: google.maps.MapOptions
         defaultStreetView?: google.maps.StreetViewPanorama
         defaultTilt?: number
